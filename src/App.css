@@ -1,38 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  position: relative;
+  background-color: beige;
+  width: 100vw;
+  height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.topRow{
+  display: flex;
+  width: 100%;
+  height: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottomRow{
+  display: flex;
+  width: 100%;
+  height: 50%;
 }
+
+.topLeftContainer {
+  background-color: rgb(255, 210, 140);
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+}
+
+.topRightContainer {
+  background-color: rgb(121, 224, 255);
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+}
+
+.bottomLeftContainer {
+  background-color: rgb(255, 210, 140);
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+}
+
+.bottomRightContainer {
+  background-color: rgb(255, 168, 255);
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');

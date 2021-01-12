@@ -1,0 +1,76 @@
+.education-container {
+    width: 100vw;
+    height: auto;
+}
+
+@media screen and (max-width: 799px){
+.education-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.education-card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 100%;
+}
+
+
+    .academic-year {
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .education-institute {
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 16px;
+        
+    }
+    
+    .education-detail {
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 800px){
+
+    .education-content-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100vw;
+    }
+    
+    .education-card1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+        width: 25%;
+    }
+    
+
+    .academic-year {
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .education-institute {
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 18px;
+        
+    }
+    
+    .education-detail {
+        font-family: 'Yusei Magic', sans-serif;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

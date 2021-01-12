@@ -1,0 +1,36 @@
+.work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.work-card {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+    border-bottom: 2px solid rgb(20, 0, 120);
+}
+
+.work-year {
+    width: 38%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.work-detail {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-detail-list {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
